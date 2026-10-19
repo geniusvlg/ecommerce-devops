@@ -13,7 +13,7 @@ resource "aws_vpc" "vpc" {
 
 #====================== Availability zones =======================#
 locals {
-  azs = ["ap-southeast-1b", "ap-southeast-1c"]
+  azs = ["us-east-1a", "us-east-1b"]
 }
 
 #====================== Subnets =======================#

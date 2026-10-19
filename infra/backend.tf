@@ -2,9 +2,9 @@
 
 terraform {
   backend "s3" {
-    bucket       = "springboot-kafka-microservices-tf-state"
+    bucket       = "springboot-microservices-tf-state"
     key          = "./terraform.tfstate"
-    region       = "ap-southeast-1"
+    region       = "us-east-1"
     encrypt      = true
     use_lockfile = true
   }
